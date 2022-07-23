@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore The World game of knowledge with 20 random questions and multiple choices answers">
+    <meta name="keywords" content="game, knowledge, geography, quiz, questions, answers">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Explore The World</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img class="home-img" src="assets/images/globe-with-plane-image.png" alt="globe with the plane">
+            <h1 id="logo">Explore The World</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="highscore.html">HIGH SCORE</a>
+                </li>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- game container-->
+    <section>
+        <div id="main-container">
+            <!-- timer-->
+            <div id="timer" class="center">0</div>
+            <div class="container">
+                <!-- Question and Answers container-->
+                <div id="quiz">
+                    <div >
+                        <h1 id="question">Question</h1>
+                    </div>
+                    <div id="hint-image">
+                        <img id="question-image" src="assets/images/bran-castle.jpg" alt="hint question image">
+                    </div>
+                    <div id="choice-container">
+                        <button class="button">Answer 1</button>
+                        <button class="button">Answer 2</button>
+                        <button class="button">Answer 3</button>
+                        <button class="button">Answer 4</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Progress container-->
+        <div id="progress">.
+            <!-- Progress-text-->
+            <div id="progress-text" class="center"></div>
+            <!-- Progress-bar-->
+            <div id="progress-bar">
+                <div id="progressBarFull"></div>
+            </div>
+
+        </div>
+
+        <!-- Control button-->
+        <div class="controls aligned">
+            <button id="next-button" class="button"> <i class="fas fa-arrow-alt-right"></i>&nbsp;Next
+            </button>
+        </div>
+        <!-- Container to show explanation about right answer based on W3Schools-->
+        <div id="myModal" class="modal">
+            <div id="popup-incorrect" class="modal-content"></div>
+            <span class="close">&times;</span>
+        </div>
+
+    </section>
+
+    
+    
+    
+    <script src="https://kit.fontawesome.com/4131544325.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

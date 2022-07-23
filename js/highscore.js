@@ -1,7 +1,7 @@
 const highScoresList = document.getElementById("highScoresList");
 const highScores2 = JSON.parse(localStorage.getItem("highScores")) || [];
 
-document.body.style.backgroundColor = "#0C2144";
+document.body.style.backgroundImage = "assets/images/highscore-image.jpg";
 
 highScoresList.innerHTML = highScores2
     .map(score => {

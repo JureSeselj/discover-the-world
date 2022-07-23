@@ -9,7 +9,7 @@
     height: 80vh;
     padding: 6rem;
     overflow-x: hidden;
-    background-color: #0C2144;
+    background: url('/assets/images/highscore-image.jpg');
 }
 
 * {
@@ -27,7 +27,7 @@ h2,
 #question {
     font-family: 'Lato', 'sans serif';
     font-size: 1.8rem;
-    color: #CADEDF;
+    color: white;
     text-align: center;
     padding: 1%;
 }
@@ -41,7 +41,7 @@ a,
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
-    color: #CADEDF;
+    color: white;
 }
 
 p {
@@ -89,11 +89,11 @@ p {
 
 #menu a {
     text-decoration: none;
-    color: #CADEDF;
+    color: white;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #10BC10;
+    border-bottom: 1px solid #FEDE00;
 }
 
 .home-img {
@@ -139,7 +139,7 @@ p {
 #next-button {
     width: 20rem;
     font-weight: 400;
-    background-color: #10BC10;
+    background-color: #FEDE00;
     color: #0C2144;
     margin: 1rem auto;
 }
@@ -152,7 +152,7 @@ p {
     font-size: 1.3em;
     padding: 1rem;
     width: 40rem;
-    background-color: #10BC10;
+    background-color: #FEDE00;
     border-radius: 2.5rem;
     display: block;
     margin: 2% auto;
@@ -163,7 +163,7 @@ p {
 
 .button:hover {
     transform: scale(1.1);
-    color: white;
+    color: #019992;
 }
 
 /* HIGH SCORE*/
@@ -177,4 +177,144 @@ p {
     width: max-content;
     line-height: 3em;
     font-size: 2.4rem;
+}
+
+/* game page style */
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #019992;
+    text-decoration: solid;
+    font-weight: 600;
+}
+
+.aligned {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin: 1rem auto;
+}
+
+#timer {
+    font-size: x-large;
+    color: var(--denim);
+    width: 200px;
+    border-radius: 35px;
+    margin: 0 auto;
+    background: rgba(162, 190, 187, 0.9);
+}
+
+#game {
+    background: url('/assets/images/highscore-image.jpg');
+}
+
+#hint-image {
+    width: 60%;
+    margin: 0 auto
+}
+
+#quiz {
+    position: relative;
+}
+
+#question {
+    height: 100px;
+    position: relative;
+}
+
+#question-image {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+#choice-container {
+    padding: 5px 0;
+    margin: 0 auto;
+}
+
+
+#progress {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#progress-text {
+    margin: -20px auto;
+    width: 176px;
+    border-radius: 35px;
+    font-size: small;
+    font-weight: 600;
+    background: rgba(162, 190, 187, 0.97);
+}
+
+#progress-bar {
+    border: 1px var(--genoa) solid;
+    height: 15px;
+    width: 80%;
+    border-radius: 25px;
+    margin: 25px auto 0 auto;
+    background: rgba(162, 190, 187, 0.97);
+}
+
+#progressBarFull {
+    height: 1.4rem;
+    background-color: var(--java);
+    width: 0%;
+    border-radius: 25px;
+    margin: 0;
+}
+
+/* correct and wrong answers style */
+
+.correct {
+    background-color: rgb(59, 115, 18);
+    color: white;
+}
+
+.wrong {
+    background-color: rgb(217, 4, 22);
+    color: white;
+}
+
+/* Explanation and pop up */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 80px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 2% auto 10px;
+    padding: 5%;
+    border: 1px solid #888;
+    width: 80%;
+    font-size: large;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
