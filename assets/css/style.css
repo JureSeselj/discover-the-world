@@ -1,7 +1,6 @@
 
 
 :root {
-    background: url(..);
     font-size: 62.5%;
     scroll-behavior: smooth; 
     background-size: cover;
@@ -15,6 +14,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.center {
+    text-align: center;
 }
 
 /* NAVIGATION BAR */
@@ -36,6 +39,66 @@
 
 .navbar-img {
     height: 10vh;
-    margin: 1rem;
+    margin: 0.6rem;
     float: left;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: black;
+    padding-top: 2.5rem;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: white;
+    background-color: #FFF;
+    border-radius: 2.5rem;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: black;
+}
+
+#hamburger .icon-bar {
+    background: black;
+}
+
+#hamburger:hover,
+#hamburger.is-active {
+    background: var(--java) !important;
+}
+
+#hamburger:hover .icon-bar,
+#hamburger.is-active .icon-bar {
+    background: white !important;
+
+}
+
+#hamburger:focus {
+    background: var(--java);
+}
+
+#hamburger:focus .icon-bar {
+    background: #FFF;
+}
+
+.navbar-nav>li>a {
+    padding: 2.7rem 1rem;
+    margin: auto 1.5rem auto 0.5rem;
+}
+
+.navbar-header {
+    width: 50%;
+}
+
+/* FOOTER */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: x-small;
+    background-color: white;
 }
