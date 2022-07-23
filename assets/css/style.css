@@ -64,6 +64,10 @@ p {
     padding: 1%;
 }
 
+section {
+    margin-top: 1%;
+}
+
 /* NAVIGATION BAR */
 
 #logo {
@@ -179,10 +183,10 @@ p {
     font-size: 2.4rem;
 }
 
-/* game page style */
+/* GAME PAGE */
 
 a {
-    color: white;
+    color: #0C2144;
 }
 
 a:hover {
@@ -201,8 +205,8 @@ a:hover {
 #timer {
     font-size: x-large;
     color: var(--denim);
-    width: 200px;
-    border-radius: 35px;
+    width: 20rem;
+    border-radius: 3.5rem;
     margin: 0 auto;
     background: rgba(162, 190, 187, 0.9);
 }
@@ -221,13 +225,13 @@ a:hover {
 }
 
 #question {
-    height: 100px;
+    height: 10rem;
     position: relative;
 }
 
 #question-image {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.8rem;
     position: relative;
 }
 
