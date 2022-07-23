@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore The World game of knowledge with 20 random questions and multiple choices answers">
+    <meta name="keywords" content="game, knowledge, geography, quiz, questions, answers">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Explore The World</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img class="home-img" src="assets/images/globe-with-plane-image.png" alt="globe with the plane">
+            <h1 id="logo">Explore The World</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="highscore.html">HIGH SCORE</a>
+                </li>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--High scores container -->
+    <section>
+        <div id="highscore-container">
+          <div class="container">
+            <div id="highScores">
+              <h1 id="finalScore"><i class="fas fa-medal"></i>
+                High Score
+              </h1>
+              <ol id="highScoresList"></ol>
+              <a class="button" href="index.html"> <i class="fas fa-home"></i> &nbsp; Go Home</a>
+              <a class="button" href="js/script.js"> <i class="fas fa-play"></i> &nbsp; Play Again</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    
+    <script src="https://kit.fontawesome.com/4131544325.js" crossorigin="anonymous"></script>
+    <script src="js/highscore.js"></script>
+</body>
+
+</html>
