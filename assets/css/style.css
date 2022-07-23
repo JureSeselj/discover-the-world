@@ -1,0 +1,41 @@
+
+
+:root {
+    background: url(..);
+    font-size: 62.5%;
+    scroll-behavior: smooth; 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 6rem;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    margin-bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    border: 0;
+    letter-spacing: 0.4rem;
+    border-radius: 0;
+    padding: 0.7rem;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-img {
+    height: 10vh;
+    margin: 1rem;
+    float: left;
+}
