@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@1,300;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mochiy+Pop+One&display=swap');
 :root {
     font-size: 62.5%;
     scroll-behavior: smooth; 
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     padding: 6rem;
     overflow-x: hidden;
     background: url('/assets/images/highscore-image.jpg');
@@ -25,7 +23,7 @@
 h1,
 h2,
 #question {
-    font-family: 'Lato', 'sans serif';
+    font-family: 'Mochiy Pop One', sans-serif;
     font-size: 1.8rem;
     color: white;
     text-align: center;
@@ -39,7 +37,7 @@ h2 {
 li,
 a,
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
     font-size: 1.4rem;
     color: white;
 }
@@ -61,7 +59,7 @@ p {
     align-items: center;
     background-color: rgba(162, 190, 187, 0.97);
     border-radius: 2.5rem;
-    padding: 1%;
+    padding: 5%;
 }
 
 section {
@@ -93,11 +91,11 @@ section {
 
 #menu a {
     text-decoration: none;
-    color: white;
+    color: #fefefe;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #FEDE00;
+    color: #FEDE00;
 }
 
 .home-img {
