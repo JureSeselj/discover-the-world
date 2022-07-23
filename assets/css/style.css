@@ -1,13 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@1,300;1,500&display=swap');
 
 :root {
     font-size: 62.5%;
     scroll-behavior: smooth; 
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     padding: 6rem;
     overflow-x: hidden;
+    background-color: #0C2144;
 }
 
 * {
@@ -20,36 +22,66 @@
     text-align: center;
 }
 
+h1,
+h2,
+#question {
+    font-family: 'Lato', 'sans serif';
+    font-size: 1.8rem;
+    color: #CADEDF;
+    text-align: center;
+    padding: 1%;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+li,
+a,
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: #CADEDF;
+}
+
+p {
+    margin: 0 0 5rem 0 !important;
+}
+
+.center {
+    text-align: center;
+}
+
 /* NAVIGATION BAR */
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 380%;
     margin-left: 1rem;
 }
 
 #menu {
-    font-size:  110%;
+    font-size:  160%;
     letter-spacing: 0.4rem;
 }
 
 #menu, #logo {
-    line-height: 7.5rem;
+    line-height: 8rem;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 4rem;
+    margin-right: 2rem;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #CADEDF;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #10BC10;
 }
 
 .home-img {
@@ -60,16 +92,17 @@
 
 /* HOME PAGE */
 
-.introduction {
+.banner-txt {
     width: 100%;
     max-width: 110rem;
     margin: 0 auto;
 }
 
 .left-about {
-    width: 50%;
+    width: 40%;
     float: left;
-    padding: 5%;
+    display: inline;
+    padding: 16rem 4rem;
 }
 
 .right-about {
@@ -79,14 +112,14 @@
 
 .right-about>img {
     width: 100%;
-    padding-right: 5%;
+    padding-top: 18rem;
 }
 
 .instructions {
     margin: 0% auto;
-    width: 80%;
+    width: 100%;
     clear: both;
-    padding: 5%;
+    padding: 0;
 }
 
 /* BUTTONS FOR ALL PAGES */
@@ -94,8 +127,8 @@
 #next-button {
     width: 20rem;
     font-weight: 400;
-    background-color: blue;
-    color: white;
+    background-color: #10BC10;
+    color: #0C2144;
     margin: 1rem auto;
 }
 
@@ -107,11 +140,11 @@
     font-size: 1.3em;
     padding: 1rem;
     width: 40rem;
-    background-color: var(--java);
+    background-color: #10BC10;
     border-radius: 2.5rem;
     display: block;
     margin: 2% auto;
-    color: black;
+    color: #10BC10;
     text-decoration: none;
     text-align: center;
 }
@@ -121,12 +154,3 @@
     color: white;
 }
 
-/* FOOTER */
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: x-small;
-    background-color: white;
-}
