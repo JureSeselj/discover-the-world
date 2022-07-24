@@ -106,6 +106,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 ## Features to be Implemented
 
+* When there is time, i would like to expand this game to include :
 + Option to know more about the question even if the user answer it correctly.
 + Sound effects to enhance the user experience.
 + Add more questions to question bank and storage it on an API.
@@ -125,3 +126,73 @@ I will explain the uses of the varius colours below, starting from the left to r
 ## Libraries & Framework
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+
+
+## Tools
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Canva](https://www.canva.com/ "canva")
+* [Pixabay](https://pixabay.com/ "Pixabay")
+
+
+[Back to Top](#table-of-contents)
+
+
+# Testing
+
+*
+*
+*
+*
+*
+
+# Bugs
+
+### Solved bugs
+
+
+# Validator Testing
+
+
+### Unfixed Bugs
+
+# Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the [GitHub repository](), navigate to the Settings tab 
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here]()
+
+
+## Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone ### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- ``
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)]()
+
+
+[Back to Top](#table-of-contents)
+
+
+# Credits
+
+For code inspiration, help and advice,
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+* [Code Institute](https://codeinstitute.net/ie/ "Code Institute")
+
+
+For content and style inspiration,
+* 
+
+
+
+[Back to Top](#table-of-contents)
