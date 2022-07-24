@@ -113,3 +113,15 @@ I will explain the uses of the varius colours below, starting from the left to r
 + External storage for ranking.
 
 [Back to Top](#table-of-contents)
+
+
+# Technologies used
+
+## Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
+
+## Libraries & Framework
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
