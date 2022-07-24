@@ -8,13 +8,13 @@ If you would like to test your geography and landmarks knowledge, this is the ga
 # UX
 
 ## User Goals
-* Create an interactive quiz with consistent styling across all pages ensuring that the application runs flawlessly across all devices. 
-* Visually appealing, including images.
+* Create an interactive quiz with consistent styling across all pages 
+  ensuring that the application runs flawlessly across all devices. 
+* Visually appealing, including images and questions with multiple choice answer.
 * Quality and valuable content.
 * Provide a fun and interactive application.
 * Test general people knowledge about landmarks and places around the world.
 * Allow the user to log in the best score and compare with previews attempts.
-
 
 
 ## User Stories
@@ -24,7 +24,53 @@ If you would like to test your geography and landmarks knowledge, this is the ga
 * As a user, I want to be able to quickly check out the high score when coming back to the game later on.
 * As a user, I want to see how I rank on the high score list.
 * As a user, I want to know correct answer when my answer is wrong.
-* As a user, I want to know how much time I have to answer the question and .
+* As a user, I want to know how much time I have to answer the question.
+
+
+## Site owners Goals
+* Promote various places and their landmarks around the world.
+* Promote the game in general and test people knowledge about geography. 
+* Increase the number of players.
+* Increase rankings on search engines.
+
+### Requirements
+* Easy to navigate on various screen sizes.
+* Clear information on the services provided.
+* Keep the user interested with small bits of information to make them want to engage with the game.
+* Simple methods of answering the questions.
+* Visually inviting so users do not leave.
+
+### Expectations
+* I expect a simple, straight forward intuitive UX experience.
+* I expect a clear and simple layout is in place to ensure users can navigate intuitively and have an easy experience.
+* I expect my content to be clear.
+* I expect screen size not to affect the quality of the website.
+* I expect all information to be correct and accurate.
+
+
+[Back to Top](#table-of-contents)
+
+
+## Design Choices
+
+### Fonts
+
+### Icons
+I will used some icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will only be used where there is no explination needed to their meaning, start game button, high score title and list of the best results on all devices. All icons used will be styled and in keeping with the appearance of the website.
+
+### Colours
+I have used [Canva](https://www.canva.com/ "canva") to help in the selection of my colour scheme. I selected the initial colour that I wanted the reast of my pallet to fit with and then used the generator to create the pallet.
+
+I will explain the uses of the varius colours below, starting from the left to right side.
+
+![Colour Pallet]
+
+* #FEDE00 - This colur will be used as background colour for all button, also as a hover effect on navbar.
+* #0C2144 - This colur will be used as text colour for the buttons,also as a border colour for buttons.
+* #019992 - This colur will be used as text colour for hover effect on the buttons. 
+* #fafafa - This colour will be used as a text colour.
+* #3b7312 - This colour will be used to correct answer to questions.
+* #d90416 - This colour will be used to incorrect answer to questions.
 
 # Features
 
