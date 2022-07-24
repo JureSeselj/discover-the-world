@@ -102,3 +102,14 @@ I will explain the uses of the varius colours below, starting from the left to r
 * A list of top 5 players can be found and every time user plays the game (on the same device) the new score will be added onto it.
 
 * There is also a go home button that leads the user to the index page after checking the high score list.
+
+
+## Features to be Implemented
+
++ Option to know more about the question even if the user answer it correctly.
++ Sound effects to enhance the user experience.
++ Add more questions to question bank and storage it on an API.
++ Choose a different options to play the game.
++ External storage for ranking.
+
+[Back to Top](#table-of-contents)
