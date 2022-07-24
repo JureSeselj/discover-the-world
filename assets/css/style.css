@@ -46,10 +46,6 @@ p {
     margin: 0 0 5rem 0 !important;
 }
 
-.center {
-    text-align: center;
-}
-
 .container {
     width: 80%;
     max-width: 60rem;
