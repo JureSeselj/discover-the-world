@@ -5,6 +5,41 @@ Welcome to Explore The World! A geography game which takes you on a journey arou
 Try to answer all the questions while traveling the world to explore your next destination.
 If you would like to test your geography and landmarks knowledge, this is the game for you!
 
+![Responsive Displays]
+
+# Table of Contents
+* [UX](#ux "UX")
+    * [User Goals](#user-goals "User Goals")
+    * [User Stories](#user-stories "User Stories")
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+         * [Requirements](#requirements)
+         * [Expectations](#expectations)
+     * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colours](#colours)
+        * [Structure](#structure)
+    * [Features](#features)
+        * [Existing Features](#existing-features)
+            * [Navigation Bar](#navigation-bar)
+            * [Introduction Page](#introduction-page)
+            * [Game Page](#game-page)
+            * [End Page](#end-page)
+            * [High Score](#high-score)
+        * [Features to be implemented](#features-to-be-implemented)
+    * [Technologies used](#technologies-used)
+        * [Languages](#languages)
+        * [Tools and Libraries](#tools-and-libraries)
+    * [Testing](#testing)
+        * [Bugs](#bugs)
+            * [Solved Bugs](#solved-bugs)
+    * [Validator Testing](#validator-testing)
+        * [Unfixed Bugs](#unfixed-bugs)
+    * [Deployment](#deployment)
+    * [Local Deployment](#local-deployment)
+    * [Credits](#credits)
+
 # UX
 
 ## User Goals
@@ -71,6 +106,9 @@ I will explain the uses of the varius colours below, starting from the left to r
 * #fafafa - This colour will be used as a text colour.
 * #3b7312 - This colour will be used to correct answer to questions.
 * #d90416 - This colour will be used to incorrect answer to questions.
+
+
+### Structure
 
 # Features
 
