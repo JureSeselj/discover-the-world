@@ -147,7 +147,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 ## Features to be Implemented
 
-* When there is time, i would like to expand this game to include :
+When there is time, I would like to expand this game to include :
 + Option to know more about the question even if the user answer it correctly.
 + Sound effects to enhance the user experience.
 + Add more questions to question bank and storage it on an API.
