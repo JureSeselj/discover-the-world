@@ -449,7 +449,7 @@ const questionBank = [{
 },
 
 {
-    question: "Opened in July 2017, the Charles Kuonen Suspension Bridge is the third longest hanging pedestrian bridge in the world. In what country is it located?",
+    question: "The Charles Kuonen Suspension Bridge is the third longest hanging pedestrian bridge in the world. In what country is it located?",
     answers: [{
             text: 'Austria',
             correct: false

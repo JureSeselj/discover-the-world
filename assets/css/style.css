@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Mochiy+Pop+One&display=swap');
 
 html {
     font-size: 62.5%;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
+    overflow-x: hidden; 
 }
 
 body {
@@ -11,7 +12,7 @@ body {
     background-position: center;
     height: 100%;
     width: 100%;
-    padding: 4rem;
+    padding: 2rem;
     overflow-x: hidden;
     background: url('/assets/images/highscore-image.jpg');
 }
@@ -32,7 +33,7 @@ section {
 
 
 #question {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 2.4rem;
     font-weight: bolder;
     color: #0C2144;
@@ -56,7 +57,7 @@ section {
 
 #logo {
     float: left;
-    font-size: 4.8rem;
+    font-size: 4.4rem;
     margin-left: 1rem;
     color: #fefefe;
     padding: 1%;
@@ -184,7 +185,7 @@ section {
 /* GAME PAGE */
 
 #main-container {
-    padding-top: 12rem;
+    padding-top: 10rem;
 }
 
 a {
@@ -227,12 +228,13 @@ a:hover {
 }
 
 #question {
-    height: 10rem;
+    height: 12rem;
     position: relative;
 }
 
 #question-image {
     width: 100%;
+    height: 18rem;
     border-radius: 0.8rem;
     position: relative;
 }
@@ -259,7 +261,7 @@ a:hover {
 }
 
 #progress-bar {
-    border: 1px var(--genoa) solid;
+    border: 1px solid #0C2144;
     height: 15px;
     width: 80%;
     border-radius: 25px;
@@ -269,7 +271,7 @@ a:hover {
 
 #progressBarFull {
     height: 1.4rem;
-    background-color: var(--java);
+    background-color: #FEDE00;
     width: 0%;
     border-radius: 25px;
     margin: 0;
@@ -348,10 +350,26 @@ input {
     width: 14em;
     padding: 1.5rem;
     font-size: 1.8rem;
-    border: 1px var(--black) solid;
-    box-shadow: var(--genoa);
+    border: 1px solid #0C2144;
+    box-shadow: #0C2144;
 }
 
 input::placeholder {
     color: #fefefe;
+}
+
+#saveScoreBtn {
+    font-size: 1.3em;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+/* FOOTER */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: x-small;
+    background-color: transparent;
+    color: #019992;
 }
