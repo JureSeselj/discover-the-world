@@ -84,3 +84,26 @@ function resetQuestion() {
         choiceButtons.removeChild(choiceButtons.firstChild);
     }
 };
+
+// Target On Selected Answerr And Style It Correct Or Wrong 
+
+function selectedAnswer(a) {
+    const selectedButton = a.target;
+    const correct = selectedButton.dataset.correct;
+    clearInterval(timer);
+
+    // Add Class If Correct
+    if (correct) {
+        this.classList.add('correct');
+        // Go To nextQuestion()
+        scorePoints++;
+        // Add Class If Incorrect
+    } else {
+        this.classList.add('wrong');
+        wrongAnswer();
+    }
+    // Disable Answer Buttons
+    Array.from(choiceButtons.children).forEach(button => {
+        button.disabled = true;
+    });
+};
