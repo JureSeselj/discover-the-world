@@ -35,7 +35,7 @@ function startQuiz() {
     nextQuestion();
 }
 
-const MAX_QUESTIONS = 14;
+const MAX_QUESTIONS = 15;
 
 // initialize page for new question.
 function nextQuestion() {
@@ -469,5 +469,28 @@ const questionBank = [{
     correctText: "The Charles Kuonen Suspension Bridge is the third longest hanging bridge for pedestrian use in the world. It is located in Randa, Switzerland and replaced the defunct Europabrücke, which had been damaged by a rock slide.",
     image: 'assets/images/suspension-bridge.jpeg',
     mark: "Switzerland"
+},
+
+{
+    question: "What European city is this?",
+    answers: [{
+            text: 'Vienna, Austria',
+            correct: false
+        },
+        {
+            text: 'Bruges, Belgium',
+            correct: false
+        },
+        {
+            text: 'Cologne, Germany',
+            correct: true
+        }, {
+            text: 'Prague, Czech Republic',
+            correct: false
+        }
+    ],
+    correctText: "Cologne, a 2,000-year-old city spanning the Rhine River in western Germany, is the region’s cultural hub. A landmark of High Gothic architecture set amid reconstructed old town, the twin-spired Cologne Cathedral is also known for its gilded medieval reliquary and sweeping river views. The adjacent Museum Ludwig showcases 20th-century art, including many masterpieces by Picasso, and the Romano-Germanic Museum houses Roman antiquities.",
+    image: 'assets/images/cologne.jpeg',
+    mark: "Cologne, Germany"
 },
 ];
