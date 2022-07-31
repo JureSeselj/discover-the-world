@@ -218,4 +218,27 @@ const questionBank = [{
     mark: "Peru"
 },
 
+{
+    question: "With its famous twisted spire, in what English town is the Parish Church of St. Mary and All Saints?",
+    answers: [{
+            text: 'Sheffield',
+            correct: false
+        },
+        {
+            text: 'Nottingham',
+            correct: false
+        },
+        {
+            text: 'Chesterfield',
+            correct: true
+        }, {
+            text: 'Leeds',
+            correct: false
+        }
+    ],
+    correctText: "Chesterfield Parish Church is an Anglican church dedicated to Saint Mary and All Saints, in Chesterfield, Derbyshire, England. Building of the church began in 1234 AD, though the present church dates predominantly from the 14th century.",
+    image: 'assets/images/Chesterfield.jpeg',
+    mark: "Chesterfield"
+},
+
 ];
