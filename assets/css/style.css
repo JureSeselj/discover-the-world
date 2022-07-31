@@ -139,6 +139,11 @@ section {
     margin: 1rem auto;
 }
 
+#start-button:hover {
+    transform: scale(1.1);
+    color: #019992;
+}
+
 #next-button {
     margin: 1% auto 10% auto !important;
 }
@@ -370,5 +375,5 @@ input::placeholder {
     width: 100%;
     font-size: x-small;
     background-color: transparent;
-    color: #019992;
+    color: #fefefe;
 }
