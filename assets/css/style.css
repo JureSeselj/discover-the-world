@@ -22,35 +22,22 @@ body {
     box-sizing: border-box;
 }
 
+section {
+    margin-top: 1%;
+}
+
 .center {
     text-align: center;
 }
 
-/*h1,
-h2,
+
 #question {
-    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 1.8rem;
-    color: white;
+    color: #0C2144;
     text-align: center;
     padding: 1%;
 }
-
-h2 {
-    font-size: 1.7em;
-}
-
-li,
-a,
-p {
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-size: 1.4rem;
-    color: white;
-}
-
-p {
-    margin: 0 0 5rem 0 !important;
-}*/
 
 .container {
     width: 80%;
@@ -64,10 +51,6 @@ p {
     padding: 5%;
 }
 
-section {
-    margin-top: 1%;
-}
-
 /* NAVIGATION BAR */
 
 #logo {
@@ -79,7 +62,7 @@ section {
 }
 
 #menu {
-    font-size:  160%;
+    font-size: 1.6rem;
     letter-spacing: 0.4rem;
 }
 
@@ -145,6 +128,7 @@ section {
 }
 
 /* BUTTONS FOR ALL PAGES */
+
 #start-button,
 #next-button {
     width: 20rem;
@@ -192,6 +176,10 @@ section {
 
 /* GAME PAGE */
 
+#main-container {
+    padding-top: 16rem;
+}
+
 a {
     color: #0C2144;
 }
@@ -206,7 +194,7 @@ a:hover {
     display: flex;
     align-items: center;
     width: max-content;
-    margin: 1rem auto;
+    margin: 0 auto;
 }
 
 #timer {
@@ -267,7 +255,7 @@ a:hover {
     height: 15px;
     width: 80%;
     border-radius: 25px;
-    margin: 25px auto 0 auto;
+    margin: 4rem auto 0 auto;
     background: rgba(162, 190, 187, 0.97);
 }
 
