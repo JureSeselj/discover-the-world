@@ -62,3 +62,17 @@ function showQuestion(pQuestion) {
     const questionImage = document.getElementById("question-image");
     questionImage.src = pQuestion.image;
 };
+
+// Create Buttons To Answers And Add Text From Question Bank
+
+pQuestion.answers.forEach(answer => {
+    const answerButton = document.createElement('button');
+    answerButton.innerText = answer.text;
+    answerButton.classList.add('button');
+    choiceButtons.appendChild(answerButton);
+
+    if (answer.correct) {
+        answerButton.dataset.correct = answer.correct;
+    }
+    answerButton.addEventListener('click', selectedAnswer);
+});
