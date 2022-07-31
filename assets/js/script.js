@@ -332,4 +332,27 @@ const questionBank = [{
     image: 'assets/images/ban-gioc.jpeg',
     mark: "China and Vietnam"
 },
+
+{
+    question: "With the flat-topped Table Mountain in the background, what city in Africa is this?",
+    answers: [{
+            text: 'Cape Town',
+            correct: true
+        },
+        {
+            text: 'Nairobi',
+            correct: false
+        },
+        {
+            text: 'Johannesburg',
+            correct: false
+        }, {
+            text: 'Cairo',
+            correct: false
+        }
+    ],
+    correctText: "Cape Town is a port city on South Africa’s southwest coast, on a peninsula beneath the imposing Table Mountain. Slowly rotating cable cars climb to the mountain’s flat top, from which there are sweeping views of the city, the busy harbor and boats heading for Robben Island, the notorious prison that once held Nelson Mandela, which is now a living museum.",
+    image: 'assets/images/cape-town.jpeg',
+    mark: "Cape Town"
+},
 ];
