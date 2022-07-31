@@ -4,8 +4,6 @@ const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-window.onload = document.body.style.backgroundImage = "url('assets/images/highscore-image.jpg')";
-
 finalScore.innerText = 'Score:' + ' ' + mostRecentScore;
 
 username.addEventListener('keyup', () => {
