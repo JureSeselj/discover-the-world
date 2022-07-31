@@ -146,3 +146,30 @@ function myTimer() {
         }
     }, 1000);
 };
+
+// Question Bank
+
+const questionBank = [{
+    question: "I'll visit a famous volcano that detroyed 5 cities in AD 79 and until nowadays is one of the most dangerous in the world.",
+        answers: [{
+                text: 'Mount Samalas - Indonesia',
+                correct: false
+            },
+            {
+                text: 'Mount Vesuvius - Italy',
+                correct: true
+            },
+            {
+                text: 'Mount Unzen - Japan',
+                correct: false
+            }, {
+                text: 'Santorini - Greece',
+                correct: false
+            }
+        ],
+        correctText: "The Sahara is a desert on the African continent. With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is the largest hot desert in the world and the third largest desert overall, smaller only than the deserts of Antarctica and the northern Arctic.The desert comprises much of North Africa, excluding the fertile region on the Mediterranean Sea coast, the Atlas Mountains of the Maghreb, and the Nile Valley in Egypt and Sudan. It stretches from the Red Sea in the east and the Mediterranean in the north to the Atlantic Ocean in the west, where the landscape gradually changes from desert to coastal plains. To the south, it is bounded by the Sahel, a belt of semi-arid tropical savanna around the Niger River valley and the Sudan Region of Sub-Saharan Africa. The Sahara can be divided into several regions, including the western Sahara, the central Ahaggar Mountains, the Tibesti Mountains, the Aïr Mountains, the Ténéré desert, and the Libyan Desert. ",
+        image: 'assets/images/saharadesert.jpg',
+        mark: "Sahara desert"
+    },
+];
+
