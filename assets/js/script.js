@@ -149,36 +149,36 @@ function myTimer() {
 // Question Bank
 
 const questionBank = [{
-    question: "I'll visit a famous volcano that detroyed 5 cities in AD 79 and until nowadays is one of the most dangerous in the world.",
+    question: "Name this world famous building and the citadel on which it is located.",
     answers: [{
-            text: 'Mount Samalas - Indonesia',
+            text: 'Colosseum (Rome, Italy)',
             correct: false
         },
         {
-            text: 'Mount Vesuvius - Italy',
+            text: 'Parthenon, Acropolis (Athens, Greece)',
             correct: true
         },
         {
-            text: 'Mount Unzen - Japan',
+            text: 'Taj Mahal (Agra, India)',
             correct: false
         }, {
-            text: 'Santorini - Greece',
+            text: 'Hagia Sophia (Istanbul, Turkey)',
             correct: false
         }
     ],
-    correctText: 'The eruption of Mount Vesuvius in AD 79 destroyed the Roman cities of Pompeii, Herculaneum, Oplontis and Stabiae, as well as several other settlements. Today, it is regarded as one of the most dangerous volcanoes in the world because of the population of 3,000,000 people living near enough to be affected by an eruption, with 600,000 in the danger zone, making it the most densely populated volcanic region in the world.',
-    image: 'assets/images/vesuvius.jpg',
-    mark: "Mount Vesuvius"
+    correctText: 'The Parthenon is a former temple on the Athenian Acropolis, Greece, that was dedicated to the goddess Athena during the fifth century BC. Its decorative sculptures are considered some of the high points of Greek art, an enduring symbol of Ancient Greece, democracy and Western civilization.',
+    image: 'assets/images/acropolis.png',
+    mark: "Parthenon, Acropolis (Athens, Greece)"
 },
 
 {
-    question: "Dracula famously lived in the historical region of Transylvania – but in what country would I'll find his castle?",
+    question: "Phoenix Park is the location of the official residence of the president of what European country?",
     answers: [{
             text: 'Hungary',
             correct: false
         },
         {
-            text: 'Romania',
+            text: 'Republic of Ireland',
             correct: true
         },
         {
@@ -189,33 +189,33 @@ const questionBank = [{
             correct: false
         }
     ],
-    correctText: "Bran Castle is a castle in Bran.  It is a national monument and landmark in Transylvania. Commonly known outside Transylvania as Dracula's Castle, it is often referred to as the home of the title character in Bram Stoker's Dracula. There is no evidence that Stoker knew anything about this castle, which has only tangential associations with Vlad the Impaler, voivode of Wallachia, the putative inspiration for Dracula. Stoker's description of Dracula's crumbling fictional castle also bears no resemblance to Bran Castle.",
-    image: 'assets/images/bran-castle.jpg',
-    mark: "Bran Castle"
+    correctText: "The Phoenix Park is a large Private park in Dublin, Ireland, lying 2–4 kilometres west of the city centre, north of the River Liffey. Its 11 kilometres perimeter wall encloses 707 hectares of recreational space.",
+    image: 'assets/images/phoenix-park.jpeg',
+    mark: "Republic of Ireland"
 
 },
 
 {
-    question: "I'll finally visit the city where Antonio Gaudi's Holy Family Basilica is located! This church is astonishing!",
+    question: "In what modern day country are the ruins of the 15th-century Inca city Machu Picchu?",
     answers: [{
-            text: 'Madrid',
+            text: 'Uruguay',
             correct: false
         },
         {
-            text: 'Sevilha',
+            text: 'Mexico',
             correct: false
         },
         {
-            text: 'Bilbau',
+            text: 'Brasil',
             correct: false
         }, {
-            text: 'Barcelona',
+            text: 'Peru',
             correct: true
         }
     ],
     correctText: "The Basílica de la Sagrada Família ('Basilica of the Holy Family'), also known as the Sagrada Família, is a large unfinished Roman Catholic minor basilica in the Eixample district of Barcelona, Catalonia, Spain. Designed by the Spanish architect Antoni Gaudí (1852–1926), his work on the building is part of a UNESCO World Heritage Site.",
-    image: 'assets/images/holy-family.jpg',
-    mark: "The Basílica de la Sagrada Família"
+    image: 'assets/images/peru.jpeg',
+    mark: "Peru"
 },
 
 ];
