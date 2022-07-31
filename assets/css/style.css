@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto:wght@300&display=swap');
 
 html {
     font-size: 62.5%;
@@ -32,8 +32,9 @@ section {
 
 
 #question {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bolder;
     color: #0C2144;
     text-align: center;
     padding: 1%;
@@ -48,7 +49,7 @@ section {
     align-items: center;
     background: rgba(93, 202, 209, 0.9);
     border-radius: 2.5rem;
-    padding: 5%;
+    padding: 2%;
 }
 
 /* NAVIGATION BAR */
@@ -177,7 +178,7 @@ section {
 /* GAME PAGE */
 
 #main-container {
-    padding-top: 16rem;
+    padding-top: 12rem;
 }
 
 a {
@@ -199,7 +200,7 @@ a:hover {
 
 #timer {
     font-size: x-large;
-    color: var(--denim);
+    color: #0C2144;
     width: 20rem;
     border-radius: 3.5rem;
     margin: 0 auto;
@@ -211,7 +212,7 @@ a:hover {
 }
 
 #hint-image {
-    width: 60%;
+    width: 70%;
     margin: 0 auto
 }
 
@@ -231,10 +232,10 @@ a:hover {
 }
 
 #choice-container {
-    padding: 5px 0;
+    padding: 0.6rem 0;
     margin: 0 auto;
+    font-size: 1.2rem;
 }
-
 
 #progress {
     width: 50%;
@@ -242,9 +243,9 @@ a:hover {
 }
 
 #progress-text {
-    margin: -20px auto;
-    width: 176px;
-    border-radius: 35px;
+    margin: -1rem auto;
+    width: 17.6rem;
+    border-radius: 3.5rem;
     font-size: small;
     font-weight: 600;
     background: rgba(93, 202, 209, 0.97);
@@ -256,7 +257,7 @@ a:hover {
     height: 15px;
     width: 80%;
     border-radius: 25px;
-    margin: 4rem auto 0 auto;
+    margin: 2rem auto 0 auto;
     background: rgba(93, 202, 209, 0.97);
 }
 
