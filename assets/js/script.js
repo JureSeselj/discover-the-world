@@ -449,25 +449,25 @@ const questionBank = [{
 },
 
 {
-    question: "",
+    question: "Opened in July 2017, the Charles Kuonen Suspension Bridge is the third longest hanging pedestrian bridge in the world. In what country is it located?",
     answers: [{
-            text: 'Edwardian Castle',
+            text: 'Austria',
             correct: false
         },
         {
-            text: 'Caernarfon Castle',
-            correct: true
+            text: 'Italy',
+            correct: false
         },
         {
-            text: 'Windsor Castle',
+            text: 'Slovenia',
             correct: false
         }, {
-            text: 'Dunrobin Castle',
-            correct: false
+            text: 'Switzerland',
+            correct: true
         }
     ],
-    correctText: "",
-    image: 'assets/images/castle-wales.jpeg',
-    mark: ""
+    correctText: "The Charles Kuonen Suspension Bridge is the third longest hanging bridge for pedestrian use in the world. It is located in Randa, Switzerland and replaced the defunct Europabrücke, which had been damaged by a rock slide.",
+    image: 'assets/images/suspension-bridge.jpeg',
+    mark: "Switzerland"
 },
 ];
