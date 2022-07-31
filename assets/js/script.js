@@ -35,7 +35,7 @@ function startQuiz() {
     nextQuestion();
 }
 
-const MAX_QUESTIONS = 12;
+const MAX_QUESTIONS = 14;
 
 // initialize page for new question.
 function nextQuestion() {
