@@ -355,4 +355,27 @@ const questionBank = [{
     image: 'assets/images/cape-town.jpeg',
     mark: "Cape Town"
 },
+
+{
+    question: "A futuristic cable-stayed bridge with a sail ship appearance, in what country is the Seri Wawasan Bridge?",
+    answers: [{
+            text: 'Laos',
+            correct: false
+        },
+        {
+            text: 'Vietnam',
+            correct: false
+        },
+        {
+            text: 'Malaysia',
+            correct: true
+        }, {
+            text: 'Indonesia',
+            correct: false
+        }
+    ],
+    correctText: "The Seri Wawasan Bridge is one of the main bridges in the planned city Putrajaya, the new Malaysian federal territory and administrative centre. This futuristic asymmetric cable-stayed bridge with a forward-inclined pylon has a sailing ship appearance, accented at night with changeable color lighting.",
+    image: 'assets/images/bridge.png',
+    mark: ""
+},
 ];
