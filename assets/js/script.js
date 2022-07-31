@@ -378,4 +378,50 @@ const questionBank = [{
     image: 'assets/images/bridge.png',
     mark: ""
 },
+
+{
+    question: "Located in Gateshead, Tyne and Wear, England, what is the name of this giant steel sculpture?",
+    answers: [{
+            text: 'Angel of the South',
+            correct: false
+        },
+        {
+            text: 'Angel of the Night',
+            correct: false
+        },
+        {
+            text: 'Angel of the North',
+            correct: true
+        }, {
+            text: 'Angel of the West',
+            correct: false
+        }
+    ],
+    correctText: "The Angel of the North is a contemporary sculpture by Antony Gormley, located in Gateshead, Tyne and Wear, England. Completed in 1998, it is believed to be the largest sculpture of an angel in the world and is viewed by an estimated 33 million people every year.",
+    image: 'assets/images/angel.png',
+    mark: "Angel of the North"
+},
+
+{
+    question: "La Casa Rosada (English: The Pink House) is the executive mansion and office of the President of what country?",
+    answers: [{
+            text: 'Chile',
+            correct: false
+        },
+        {
+            text: 'Ecuador',
+            correct: false
+        },
+        {
+            text: 'Peru',
+            correct: false
+        }, {
+            text: 'Argentina',
+            correct: true
+        }
+    ],
+    correctText: "The Casa Rosada is the office of the president of Argentina. The palatial mansion is known officially as Casa de Gobierno. Normally, the president lives at the Quinta de Olivos, the official residence of the president of Argentina, which is located in Olivos, Greater Buenos Aires.",
+    image: 'assets/images/casa-rosada.jpeg',
+    mark: "Argentina"
+},
 ];
