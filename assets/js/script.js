@@ -123,4 +123,26 @@ function wrongAnswer() {
             modal.style.display = "none";
         }
     };
-}
+};
+
+// Add Countdown Timer
+
+let timer;
+
+function myTimer() {
+    if (timer) {
+        clearInterval(timer);
+    }
+    let sec = 20;
+    timer = setInterval(function () {
+        document.getElementById('timer').innerHTML = '<i class="far fa-clock"></i>' + ' ' + sec + ' ' + "sec left";
+        sec--;
+        if (sec == -1) {
+            clearInterval(timer);
+            wrongAnswer();
+            Array.from(choiceButtons.children).forEach(button => {
+                button.disabled = true;
+            });
+        }
+    }, 1000);
+};
