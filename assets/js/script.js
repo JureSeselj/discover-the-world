@@ -76,3 +76,11 @@ pQuestion.answers.forEach(answer => {
     }
     answerButton.addEventListener('click', selectedAnswer);
 });
+
+// Add Hide On Next Button And Clean Buttons From Previous Question
+
+function resetQuestion() {
+    while (choiceButtons.firstChild) {
+        choiceButtons.removeChild(choiceButtons.firstChild);
+    }
+};
