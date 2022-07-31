@@ -1,4 +1,4 @@
-![Logo](/docs/screen-shoot-images/logo-image.png)
+![Logo](/docs/logo.png)
 # Explore The World
 
 # Goal for this Project
