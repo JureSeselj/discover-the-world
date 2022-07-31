@@ -283,7 +283,7 @@ const questionBank = [{
         }
     ],
     correctText: "Bratislava Castle is the main castle of Bratislava, the capital of Slovakia. The massive rectangular building with four corner towers stands on an isolated rocky hill of the Little Carpathians directly above the Danube river in the middle of Bratislava.",
-    image: 'assets/images/grand.jpeg',
+    image: 'assets/images/castle.jpeg',
     mark: "Bratislava, Slovakia"
 },
 
