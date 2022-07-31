@@ -14,3 +14,9 @@ window.onload = function beginGame() {
     background();
     startQuiz();
 };
+
+// Next Button Add Next Question
+nextButton.addEventListener('click', () => {
+    currentQuestion++;
+    nextQuestion();
+});
