@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mochiy+Pop+One&display=swap');
-:root {
+
+html {
     font-size: 62.5%;
     scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Mochiy Pop One', sans-serif;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    padding: 6rem;
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
     overflow-x: hidden;
     background: url('/assets/images/highscore-image.jpg');
 }
@@ -20,7 +26,7 @@
     text-align: center;
 }
 
-h1,
+/*h1,
 h2,
 #question {
     font-family: 'Mochiy Pop One', sans-serif;
@@ -44,7 +50,7 @@ p {
 
 p {
     margin: 0 0 5rem 0 !important;
-}
+}*/
 
 .container {
     width: 80%;
@@ -66,8 +72,10 @@ section {
 
 #logo {
     float: left;
-    font-size: 380%;
+    font-size: 4.8rem;
     margin-left: 1rem;
+    color: #fefefe;
+    padding: 1%;
 }
 
 #menu {
@@ -109,10 +117,12 @@ section {
 }
 
 .left-about {
+    color: #fefefe;
+    font-size: 1.4rem;
     width: 40%;
     float: left;
     display: inline;
-    padding: 16rem 4rem;
+    padding: 14rem 1.8rem;
 }
 
 .right-about {
@@ -122,14 +132,16 @@ section {
 
 .right-about>img {
     width: 100%;
-    padding-top: 6rem;
+    padding-top: 14rem;
 }
 
 .instructions {
-    margin: 0% auto;
+    margin: 0 auto;
     width: 100%;
     clear: both;
-    padding: 0;
+    padding: 2%;
+    color: #fefefe;
+    font-size: 1.4rem;
 }
 
 /* BUTTONS FOR ALL PAGES */
