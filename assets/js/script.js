@@ -424,4 +424,50 @@ const questionBank = [{
     image: 'assets/images/casa-rosada.jpeg',
     mark: "Argentina"
 },
+
+{
+    question: "What is the name of this medieval fortress in North Wales?",
+    answers: [{
+            text: 'Edwardian Castle',
+            correct: false
+        },
+        {
+            text: 'Caernarfon Castle',
+            correct: true
+        },
+        {
+            text: 'Windsor Castle',
+            correct: false
+        }, {
+            text: 'Dunrobin Castle',
+            correct: false
+        }
+    ],
+    correctText: "Caernarfon Castle – often anglicised as Carnarvon Castle or Caernarvon Castle – is a medieval fortress in Caernarfon, Gwynedd, north-west Wales cared for by Cadw, the Welsh Government's historic environment service.",
+    image: 'assets/images/castle-wales.jpeg',
+    mark: "Caernarfon Castle"
+},
+
+{
+    question: "",
+    answers: [{
+            text: 'Edwardian Castle',
+            correct: false
+        },
+        {
+            text: 'Caernarfon Castle',
+            correct: true
+        },
+        {
+            text: 'Windsor Castle',
+            correct: false
+        }, {
+            text: 'Dunrobin Castle',
+            correct: false
+        }
+    ],
+    correctText: "",
+    image: 'assets/images/castle-wales.jpeg',
+    mark: ""
+},
 ];
