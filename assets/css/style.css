@@ -46,7 +46,7 @@ section {
     margin: 0.5rem auto;
     justify-content: center;
     align-items: center;
-    background-color: rgba(162, 190, 187, 0.97);
+    background: rgba(93, 202, 209, 0.9);
     border-radius: 2.5rem;
     padding: 5%;
 }
@@ -203,7 +203,7 @@ a:hover {
     width: 20rem;
     border-radius: 3.5rem;
     margin: 0 auto;
-    background: rgba(162, 190, 187, 0.9);
+    background: rgba(93, 202, 209, 0.9);
 }
 
 #game {
@@ -247,7 +247,7 @@ a:hover {
     border-radius: 35px;
     font-size: small;
     font-weight: 600;
-    background: rgba(162, 190, 187, 0.97);
+    background: rgba(93, 202, 209, 0.97);
 }
 
 #progress-bar {
@@ -256,7 +256,7 @@ a:hover {
     width: 80%;
     border-radius: 25px;
     margin: 4rem auto 0 auto;
-    background: rgba(162, 190, 187, 0.97);
+    background: rgba(93, 202, 209, 0.97);
 }
 
 #progressBarFull {
