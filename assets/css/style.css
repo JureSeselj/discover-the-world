@@ -248,6 +248,7 @@ a:hover {
     font-size: small;
     font-weight: 600;
     background: rgba(93, 202, 209, 0.97);
+    color: #0C2144;
 }
 
 #progress-bar {
