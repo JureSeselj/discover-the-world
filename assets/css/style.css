@@ -146,19 +146,19 @@ section {
     font-size: 1.3em;
     padding: 1rem;
     width: 40rem;
-    background-color: #FEDE00;
+    background-color: #0C2144;
     border: 0.2rem solid #0C2144;
     border-radius: 2.5rem;
     display: block;
     margin: 2% auto;
-    color: #0C2144;
+    color: #fefefe;
     text-decoration: none;
     text-align: center;
 }
 
 .button:hover {
     transform: scale(1.1);
-    color: #019992;
+    color: #FEDE00;
 }
 
 /* HIGH SCORE*/
@@ -270,13 +270,13 @@ a:hover {
 /* correct and wrong answers style */
 
 .correct {
-    background-color: rgb(59, 115, 18);
-    color: white;
+    background-color: rgb(94, 196, 22);
+    color: #fefefe;
 }
 
 .wrong {
     background-color: rgb(217, 4, 22);
-    color: white;
+    color: #fefefe;
 }
 
 /* Explanation and pop up */
