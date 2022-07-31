@@ -53,3 +53,12 @@ function nextQuestion() {
     // Update The Progress Bar
     progressBarFull.style.width = `${((currentQuestion +1) / MAX_QUESTIONS) * 100}%`;
 }
+
+//Receive Question With Answers And Outputs Buttons For Each Answer
+
+function showQuestion(pQuestion) {
+    questionElement.innerText = pQuestion.question;
+    questionPopupElement.innerText = pQuestion.correctText;
+    const questionImage = document.getElementById("question-image");
+    questionImage.src = pQuestion.image;
+};
