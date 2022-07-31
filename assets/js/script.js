@@ -85,7 +85,7 @@ function resetQuestion() {
     }
 };
 
-// Target On Selected Answerr And Style It Correct Or Wrong 
+// Target On Selected Answer And Style It Correct Or Wrong 
 
 function selectedAnswer(a) {
     const selectedButton = a.target;
