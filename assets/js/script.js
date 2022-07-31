@@ -264,4 +264,27 @@ const questionBank = [{
     mark: "New Delhi, India"
 },
 
+{
+    question: "In what European capital city is this grand castle?",
+    answers: [{
+            text: 'Budapest, Hungary',
+            correct: false
+        },
+        {
+            text: 'Warsaw, Poland',
+            correct: false
+        },
+        {
+            text: 'Bratislava, Slovakia',
+            correct: true
+        }, {
+            text: 'Sofia, Bulgaria',
+            correct: false
+        }
+    ],
+    correctText: "Bratislava Castle is the main castle of Bratislava, the capital of Slovakia. The massive rectangular building with four corner towers stands on an isolated rocky hill of the Little Carpathians directly above the Danube river in the middle of Bratislava.",
+    image: 'assets/images/grand.jpeg',
+    mark: "Bratislava, Slovakia"
+},
+
 ];
