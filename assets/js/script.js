@@ -5,8 +5,6 @@ const questionPopupElement = document.getElementById('popup-incorrect');
 const progressText = document.getElementById("progress-text");
 const progressBarFull = document.getElementById("progressBarFull");
 
-
-
 let currentQuestion;
 let shuffleQuestions;
 
