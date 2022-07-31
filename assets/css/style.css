@@ -42,7 +42,7 @@ section {
 
 .container {
     width: 80%;
-    max-width: 60rem;
+    max-width: 80rem;
     display: flex;
     margin: 0.5rem auto;
     justify-content: center;
@@ -219,7 +219,7 @@ a:hover {
 
 #hint-image {
     width: 60%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 #quiz {
@@ -238,7 +238,7 @@ a:hover {
 }
 
 #choice-container {
-    padding: 0.6rem 0;
+    padding: 0.5rem 0;
     margin: 0 auto;
     font-size: 1.2rem;
 }

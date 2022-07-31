@@ -214,7 +214,7 @@ const questionBank = [{
         }
     ],
     correctText: "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views.",
-    image: 'assets/images/peru.jpeg',
+    image: 'assets/images/machu-picchu.jpeg',
     mark: "Peru"
 },
 
@@ -237,8 +237,31 @@ const questionBank = [{
         }
     ],
     correctText: "Chesterfield Parish Church is an Anglican church dedicated to Saint Mary and All Saints, in Chesterfield, Derbyshire, England. Building of the church began in 1234 AD, though the present church dates predominantly from the 14th century.",
-    image: 'assets/images/Chesterfield.jpeg',
+    image: 'assets/images/chester.jpeg',
     mark: "Chesterfield"
+},
+
+{
+    question: "Nicknamed the Lotus Temple, in what Indian city would you find the Bahá'í House of Worship?",
+    answers: [{
+            text: 'New Delhi, India',
+            correct: true
+        },
+        {
+            text: 'Kathmandu, Nepal',
+            correct: false
+        },
+        {
+            text: 'Bawana, India',
+            correct: false
+        }, {
+            text: 'Lahore, Pakistan',
+            correct: false
+        }
+    ],
+    correctText: "The Lotus Temple, located in Delhi, India, is a Baháʼí House of Worship that was dedicated in December 1986. Notable for its flowerlike shape, it has become a prominent attraction in the city. Like all other Bahá’í Houses of Worship, the Lotus Temple is open to all, regardless of religion or any other qualification. The building is composed of 27 free-standing marble-clad arranged in clusters of three to form nine sides, with nine doors opening onto a central hall with a height of slightly over 34 meters and a capacity of 1,300 people. The Lotus Temple has won numerous architectural awards and has been featured in many newspaper and magazine articles",
+    image: 'assets/images/delhi-india.jpeg',
+    mark: "New Delhi, India"
 },
 
 ];
