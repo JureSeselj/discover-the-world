@@ -27,6 +27,7 @@ If you would like to test your geography and landmarks knowledge, this is the ga
             * [Game Page](#game-page)
             * [End Page](#end-page)
             * [High Score](#high-score)
+            * [Footer](#footer)
         * [Features to be implemented](#features-to-be-implemented)
     * [Technologies used](#technologies-used)
         * [Languages](#languages)
