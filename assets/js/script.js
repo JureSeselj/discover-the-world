@@ -287,4 +287,26 @@ const questionBank = [{
     mark: "Bratislava, Slovakia"
 },
 
+{
+    question: "What is the name of this public square in Paris, France?",
+    answers: [{
+            text: 'Palais de la Place Beauvau',
+            correct: false
+        },
+        {
+            text: 'Place Vendome',
+            correct: false
+        },
+        {
+            text: 'Grand Palais',
+            correct: false
+        }, {
+            text: 'Place de la Concorde',
+            correct: true
+        }
+    ],
+    correctText: "The Place de la Concorde is one of the major public squares in Paris, France. Measuring 7.6 ha in area, it is the largest square in the French capital. It is located in the city's eighth arrondissement, at the eastern end of the Champs-Élysées.",
+    image: 'assets/images/concorde.jpeg',
+    mark: "Place de la Concorde"
+},
 ];
