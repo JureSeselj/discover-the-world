@@ -20,3 +20,10 @@ nextButton.addEventListener('click', () => {
     currentQuestion++;
     nextQuestion();
 });
+
+// When Executed Hide Start Button, Shows Question Container And Shuffle Questions 
+function startQuiz() {
+    shuffleQuestions = questionBank.sort(() => Math.random() - 0.5);
+    currentQuestion = 0;
+    nextQuestion();
+}
