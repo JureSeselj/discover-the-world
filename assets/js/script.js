@@ -309,4 +309,27 @@ const questionBank = [{
     image: 'assets/images/concorde.jpeg',
     mark: "Place de la Concorde"
 },
+
+{
+    question: "The Detian - Ban Gioc Falls straddle the international border between what two countries?",
+    answers: [{
+            text: 'India and Pakistan',
+            correct: false
+        },
+        {
+            text: 'China and Vietnam',
+            correct: true
+        },
+        {
+            text: 'Vietnam and Thailand',
+            correct: false
+        }, {
+            text: 'China and Nepal',
+            correct: false
+        }
+    ],
+    correctText: "Ban Gioc – Detian Falls or Ban Gioc Falls is a collective name for two waterfalls on the Quây Sơn River that straddle the international border between China and Vietnam; more specifically located between the Karst hills of Daxin County, Guangxi, and Trùng Khánh District, Cao Bằng Province.",
+    image: 'assets/images/ban-gioc.jpeg',
+    mark: "China and Vietnam"
+},
 ];
