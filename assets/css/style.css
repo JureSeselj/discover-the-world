@@ -2,7 +2,8 @@
 
 html {
     font-size: 62.5%;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
+    background: url('/assets/images/highscore-image.jpg'); 
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     width: 100%;
     padding: 2rem;
     overflow-x: hidden;
-    background: url('/assets/images/highscore-image.jpg');
+    
 }
 
 * {
