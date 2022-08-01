@@ -116,7 +116,7 @@ section {
 
 .right-about>img {
     width: 100%;
-    padding-top: 14rem;
+    padding-top: 12rem;
 }
 
 .instructions {
@@ -383,4 +383,164 @@ input::placeholder {
     font-size: x-small;
     background-color: transparent;
     color: #fefefe;
+}
+
+/* media query to medium screens */
+
+@media screen and (max-width: 1024px) {
+    #logo {
+        font-size: 2.6rem;
+        margin-left: 0.4rem;
+    }
+    .home-img {
+        height: 6vh;
+        margin: 1.2rem;
+        float: left;
+    }
+    .instructions {
+        width: 100%;
+        padding: 0%;
+        font-size: 1.2rem;
+    }
+    .left-about {
+        font-size: 1.2rem;
+        width: 40%;
+        float: left;
+        display: inline;
+        padding: 12rem 1.8rem;
+    }
+    .right-about>img {
+        width: 100%;
+        padding-top: 8rem;
+    }
+
+    /*game page*/
+
+    #question-image {
+        width: 100%;
+    }
+
+    #hint-image {
+        width: 70%;
+    }
+
+    /* end game page*/
+
+    #form-container {
+        padding-top: 10rem;
+    }
+}
+
+/* media query for responsnive design  to smalls screens */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 90rem;
+        display: flex;
+        margin: 0.5rem auto;
+        justify-content: center;
+        align-items: center;
+        background: rgba(93, 202, 209, 0.7);
+        border-radius: 2.5rem;
+        padding: 1%;
+    }
+    #logo {
+        font-size: 1.8rem;
+        margin-left: 0.2rem;
+    }
+    .home-img {
+        height: 5vh;
+        margin: 1.2rem;
+        float: left;
+    }
+    #menu {
+        font-size: 1.2rem;
+        letter-spacing: 0.4rem;
+    }
+    .instructions {
+        width: 100%;
+        padding: 0%;
+        font-size: 1rem;
+    }
+    .left-about {
+        font-size: 1rem;
+        width: 40%;
+        float: left;
+        display: inline;
+        padding: 8rem 1.6rem;
+    }
+    .right-about>img {
+        width: 100%;
+        padding-top: 6rem;
+    }
+    #question {
+        font-size: 1.6rem;
+        height: 10rem;
+        position: relative;
+    }
+    
+    #question-image {
+        width: 100%;
+        height: 12rem;
+        border-radius: 0.8rem;
+        position: relative;
+    }
+    
+    #choice-container {
+        padding: 0.5rem 0;
+        margin: 0 auto;
+        font-size: 1rem;
+    }   
+}
+
+
+@media screen and (max-width: 320px) {
+    #logo {
+        font-size: 1.2rem;
+        margin-left: 0.2rem;
+    }
+    .home-img {
+        height: 5vh;
+        margin: 1.2rem;
+        float: left;
+    }
+    #menu {
+        font-size: 1rem;
+        letter-spacing: 0.4rem;
+    }
+    .instructions {
+        width: 100%;
+        padding: 0%;
+        font-size: 1rem;
+    }
+    .left-about {
+        font-size: 0.8rem;
+        width: 80%;
+        text-align: center;
+        
+        padding: 4rem 1rem;
+    }
+    .right-about>img {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    #question {
+        font-size: 1.2rem;
+        height: 10rem;
+        position: relative;
+    }
+    
+    #question-image {
+        width: 100%;
+        height: 12rem;
+        border-radius: 0.8rem;
+        position: relative;
+    }
+    
+    #choice-container {
+        padding: 0.5rem 0;
+        margin: 0 auto;
+        font-size: 1rem;
+    }   
 }
