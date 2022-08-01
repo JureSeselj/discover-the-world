@@ -125,9 +125,11 @@ I will explain the uses of the varius colours below, starting from the left to r
 * Navbar with Home and High Scores button to allow the user easy access to all pages.
 ### Introduction Page
 
-* Game introduction to allow user to know the main story and play button to begin the game.
+* Game introduction to allow user to know the main story about the game. 
 
 * Short game instruction to assure that user can play the game without doubts and easily.
+
+* Underneath introduction is play button to begin the game.
 
 ### Game Page
 
@@ -135,17 +137,23 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 * Each question has its own hint image to help user remember what landmark the question is linked.
 
-* When user got a wrong answer to question or time finished, a modal shows a brief explanation about the question.
+* When user got a wrong answer to question or time finished, a modal shows a brief explanation about correct question answer.
+
+* There is progress bar with text underneath the game container to clearly show the user game progress and remaining questions before finsih.
 
 ### End Game
 
-* After answering 20 quiz questions, user can add name to rank score on High Scores page.
+* After answering 15 quiz questions, user can add name to rank score on High Score page.
+
+* There is also two buttons for home page or play again the game.
 
 ### High Score
 
 * A list of top 5 players can be found and every time user plays the game (on the same device) the new score will be added onto it.
 
 * There is also a go home button that leads the user to the index page after checking the high score list.
+
+* Underneath go home button there is also a play again button to instantly begin the game.
 
 
 ## Features to be Implemented
