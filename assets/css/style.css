@@ -9,7 +9,7 @@ body {
     font-family: 'Mochiy Pop One', sans-serif;
     background-size: cover;
     background-position: center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     padding: 2rem;
     overflow-x: hidden;
@@ -47,7 +47,7 @@ section {
     margin: 0.5rem auto;
     justify-content: center;
     align-items: center;
-    background: rgba(93, 202, 209, 0.9);
+    background: rgba(93, 202, 209, 0.7);
     border-radius: 2.5rem;
     padding: 2%;
 }
@@ -136,7 +136,7 @@ section {
     font-weight: 400;
     background-color: #FEDE00;
     color: #0C2144;
-    margin: 1rem auto;
+    margin: 1.8rem auto;
     text-transform: uppercase;
 }
 
@@ -148,7 +148,7 @@ section {
 }
 
 #next-button {
-    margin: 1% auto 8% auto !important;
+    margin: 1% auto 10% auto !important;
     font-family: 'Mochiy Pop One', sans-serif;
 }
 
@@ -220,7 +220,7 @@ a:hover {
     width: 20rem;
     border-radius: 3.5rem;
     margin: 0 auto;
-    background: rgba(93, 202, 209, 0.9);
+    background: rgba(93, 202, 209, 0.7);
 }
 
 #game {
@@ -265,7 +265,7 @@ a:hover {
     border-radius: 3.5rem;
     font-size: small;
     font-weight: 600;
-    background: rgba(93, 202, 209, 0.97);
+    background: rgba(93, 202, 209, 0.95);
     color: #0C2144;
 }
 
@@ -275,11 +275,11 @@ a:hover {
     width: 80%;
     border-radius: 2.5rem;
     margin: 2rem auto 0 auto;
-    background: rgba(93, 202, 209, 0.97);
+    background: rgba(93, 202, 209, 0.95);
 }
 
 #progressBarFull {
-    height: 1.4rem;
+    height: 1.3rem;
     background-color: #FEDE00;
     width: 0%;
     border-radius: 2.5rem;
@@ -304,21 +304,23 @@ a:hover {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 80px;
+    padding-top: 8rem;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
+    color: #019992;
     background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #efefef;
     margin: 2% auto 10px;
     padding: 5%;
-    border: 1px solid #888;
+    border: 6px solid #019992;
+    border-radius: 3.4rem;
     width: 80%;
     font-size: large;
 }

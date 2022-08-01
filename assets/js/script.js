@@ -132,7 +132,7 @@ function myTimer() {
     }
     let sec = 20;
     timer = setInterval(function () {
-        document.getElementById('timer').innerHTML = '<i class="far fa-clock"></i>' + ' ' + sec + ' ' + "sec left";
+        document.getElementById('timer').innerHTML = '<i class="far fa-clock"></i>' + ' ' + sec + ' ' + "sec";
         sec--;
         if (sec == -1) {
             clearInterval(timer);
