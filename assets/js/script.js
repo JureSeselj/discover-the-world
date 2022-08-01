@@ -10,25 +10,20 @@ const progressBarFull = document.getElementById("progressBarFull");
 let currentQuestion;
 let shuffleQuestions;
 
-// begin game 
+// Begin The Game 
 let scorePoints = 0;
 window.onload = function beginGame() {
     background();
     startQuiz();
 };
 
-//add background to body
-function background() {
-    document.body.style.backgroundImage = "url('assets/images/highscore-image.jpg')";
-}
-
-// next button add next question
+// Next Button Add Next Question
 nextButton.addEventListener('click', () => {
     currentQuestion++;
     nextQuestion();
 });
 
-// When executed hide Start Button, shows Question container and Shuffle questions. 
+// When Executed Hide Start Button, Shows Question Container And Shuffle Questions
 function startQuiz() {
     shuffleQuestions = questionBank.sort(() => Math.random() - 0.5);
     currentQuestion = 0;
@@ -37,7 +32,7 @@ function startQuiz() {
 
 const MAX_QUESTIONS = 15;
 
-// initialize page for new question.
+// Initialize Page For New Question
 function nextQuestion() {
 
     if ((shuffleQuestions.length == currentQuestion) || currentQuestion == MAX_QUESTIONS) {
@@ -51,22 +46,20 @@ function nextQuestion() {
         myTimer();
     }
 
-    // update the progress text
+    // Update The Progress Text
     progressText.innerText = `Question ${currentQuestion+1}/${MAX_QUESTIONS}`;
-    //Update the progress bar
+    // Update The Progress Bar
     progressBarFull.style.width = `${((currentQuestion +1) / MAX_QUESTIONS) * 100}%`;
 }
 
-function initMap() {}
-
-//Receive question with answers and outputs buttons for each answer
+// Receive Question With Answers And Output Buttons For Each Answer
 function showQuestion(pQuestion) {
     questionElement.innerText = pQuestion.question;
     questionPopupElement.innerText = pQuestion.correctText;
     const questionImage = document.getElementById("question-image");
     questionImage.src = pQuestion.image;
 
-    // create buttons to answers and add text from question bank
+    // Create Buttons To Answers And Add Text From Question Bank
     pQuestion.answers.forEach(answer => {
         const answerButton = document.createElement('button');
         answerButton.innerText = answer.text;
@@ -80,36 +73,36 @@ function showQuestion(pQuestion) {
     });
 }
 
-// Add hide on next button and clean buttons from previous question
+// Add Hide On Next Button And Clean Buttons From Previous Question
 function resetQuestion() {
     while (choiceButtons.firstChild) {
         choiceButtons.removeChild(choiceButtons.firstChild);
     }
 }
 
-// target on selected asnwer and style it correct or wrong 
+// Target On Selected Answer And Style It Correct Or Wrong 
 function selectedAnswer(a) {
     const selectedButton = a.target;
     const correct = selectedButton.dataset.correct;
     clearInterval(timer);
 
-    // add class if correct
+    // Add Class If Correct
     if (correct) {
         this.classList.add('correct');
         //go to nextQuestion()
         scorePoints++;
-        // add class if incorrect
+        // Add Class If Incorrect
     } else {
         this.classList.add('wrong');
         wrongAnswer();
     }
-    // disable answer buttons
+    // Disable Answer Buttons
     Array.from(choiceButtons.children).forEach(button => {
         button.disabled = true;
     });
 }
 
-// Show correct answer after wrong click
+// Show Correct Answer After Click Wrong Answer
 function wrongAnswer() {
     var modal = document.getElementById('myModal');
     var span = document.getElementsByClassName('close')[0];
@@ -125,7 +118,7 @@ function wrongAnswer() {
     };
 }
 
-// Add contdown timer
+// Add Countdown Timer
 let timer;
 
 function myTimer() {
@@ -147,7 +140,6 @@ function myTimer() {
 }
 
 // Question Bank
-
 const questionBank = [{
     question: "Name this world famous building and the citadel on which it is located.",
     answers: [{
