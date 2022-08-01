@@ -123,6 +123,8 @@ I will explain the uses of the varius colours below, starting from the left to r
 ### Navbar
 
 * Navbar with Home and High Scores button to allow the user easy access to all pages.
+
+![Navigation Bar](/docs/navbar-image.png)
 ### Introduction Page
 
 * Game introduction to allow user to know the main story about the game. 
@@ -130,6 +132,8 @@ I will explain the uses of the varius colours below, starting from the left to r
 * Short game instruction to assure that user can play the game without doubts and easily.
 
 * Underneath introduction is play button to begin the game.
+
+![Introduction Page](/docs/introduction-page.png)
 
 ### Game Page
 
@@ -140,6 +144,8 @@ I will explain the uses of the varius colours below, starting from the left to r
 * When user got a wrong answer to question or time finished, a modal shows a brief explanation about correct question answer.
 
 * There is progress bar with text underneath the game container to clearly show the user game progress and remaining questions before finsih.
+
+![Game Page](/docs/game-page-image.png)
 
 ### End Game
 
