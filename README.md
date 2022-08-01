@@ -57,10 +57,11 @@ If you would like to test your geography and landmarks knowledge, this is the ga
 ## User Stories
 * As a user, I want to easily navigate throughout the website and questions.
 * As a user, I want to see in which question I am answering and how many more I have left.
-* As a user, I want to be able to add my name and save my best score.
+* As a user, I want to be able to add my name when finish to save my best score.
 * As a user, I want to be able to quickly check out the high score when coming back to the game later on.
 * As a user, I want to see how I rank on the high score list.
 * As a user, I want to know correct answer when my answer is wrong.
+* As a user, I want explanation when my answer is wrong.
 * As a user, I want to know how much time I have to answer the question.
 
 
