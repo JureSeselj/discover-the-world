@@ -142,10 +142,12 @@ section {
 #start-button:hover {
     transform: scale(1.1);
     color: #019992;
+    border: 0.2rem solid #019992;
+    border-radius: 2.5rem;
 }
 
 #next-button {
-    margin: 1% auto 10% auto !important;
+    margin: 1% auto 8% auto !important;
 }
 
 .button {

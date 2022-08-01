@@ -10,20 +10,25 @@ const progressBarFull = document.getElementById("progressBarFull");
 let currentQuestion;
 let shuffleQuestions;
 
-// Begin The Game 
+// begin game 
 let scorePoints = 0;
 window.onload = function beginGame() {
     background();
     startQuiz();
 };
 
-// Next Button Add Next Question
+//add background to body
+function background() {
+    document.body.style.backgroundImage = "url('assets/images/highscore-image.jpg')";
+}
+
+// next button add next question
 nextButton.addEventListener('click', () => {
     currentQuestion++;
     nextQuestion();
 });
 
-// When Executed Hide Start Button, Shows Question Container And Shuffle Questions
+// When executed hide Start Button, shows Question container and Shuffle questions. 
 function startQuiz() {
     shuffleQuestions = questionBank.sort(() => Math.random() - 0.5);
     currentQuestion = 0;
@@ -32,7 +37,7 @@ function startQuiz() {
 
 const MAX_QUESTIONS = 15;
 
-// Initialize Page For New Question
+// initialize page for new question.
 function nextQuestion() {
 
     if ((shuffleQuestions.length == currentQuestion) || currentQuestion == MAX_QUESTIONS) {
@@ -46,20 +51,20 @@ function nextQuestion() {
         myTimer();
     }
 
-    // Update The Progress Text
+    // update the progress text
     progressText.innerText = `Question ${currentQuestion+1}/${MAX_QUESTIONS}`;
-    // Update The Progress Bar
+    //Update the progress bar
     progressBarFull.style.width = `${((currentQuestion +1) / MAX_QUESTIONS) * 100}%`;
 }
 
-// Receive Question With Answers And Output Buttons For Each Answer
+//Receive question with answers and outputs buttons for each answer
 function showQuestion(pQuestion) {
     questionElement.innerText = pQuestion.question;
     questionPopupElement.innerText = pQuestion.correctText;
     const questionImage = document.getElementById("question-image");
     questionImage.src = pQuestion.image;
 
-    // Create Buttons To Answers And Add Text From Question Bank
+    // create buttons to answers and add text from question bank
     pQuestion.answers.forEach(answer => {
         const answerButton = document.createElement('button');
         answerButton.innerText = answer.text;
@@ -73,36 +78,36 @@ function showQuestion(pQuestion) {
     });
 }
 
-// Add Hide On Next Button And Clean Buttons From Previous Question
+// Add hide on next button and clean buttons from previous question
 function resetQuestion() {
     while (choiceButtons.firstChild) {
         choiceButtons.removeChild(choiceButtons.firstChild);
     }
 }
 
-// Target On Selected Answer And Style It Correct Or Wrong 
+// target on selected asnwer and style it correct or wrong 
 function selectedAnswer(a) {
     const selectedButton = a.target;
     const correct = selectedButton.dataset.correct;
     clearInterval(timer);
 
-    // Add Class If Correct
+    // add class if correct
     if (correct) {
         this.classList.add('correct');
         //go to nextQuestion()
         scorePoints++;
-        // Add Class If Incorrect
+        // add class if incorrect
     } else {
         this.classList.add('wrong');
         wrongAnswer();
     }
-    // Disable Answer Buttons
+    // disable answer buttons
     Array.from(choiceButtons.children).forEach(button => {
         button.disabled = true;
     });
 }
 
-// Show Correct Answer After Click Wrong Answer
+// Show correct answer after wrong click
 function wrongAnswer() {
     var modal = document.getElementById('myModal');
     var span = document.getElementsByClassName('close')[0];
@@ -118,7 +123,7 @@ function wrongAnswer() {
     };
 }
 
-// Add Countdown Timer
+// Add contdown timer
 let timer;
 
 function myTimer() {
