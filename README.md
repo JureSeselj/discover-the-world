@@ -153,6 +153,8 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 * There is also two buttons for home page or play again the game.
 
+![End Game](/docs/end-page-image.png)
+
 ### High Score
 
 * A list of top 5 players can be found and every time user plays the game (on the same device) the new score will be added onto it.
@@ -160,6 +162,8 @@ I will explain the uses of the varius colours below, starting from the left to r
 * There is also a go home button that leads the user to the index page after checking the high score list.
 
 * Underneath go home button there is also a play again button to instantly begin the game.
+
+![High Score](/docs/high-score-page.png)
 
 
 ## Features to be Implemented
