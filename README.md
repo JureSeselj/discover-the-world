@@ -50,12 +50,13 @@ If you would like to test your geography and landmarks knowledge, this is the ga
 * Visually appealing, including images and questions with multiple choice answer.
 * Quality and valuable content.
 * Provide a fun and interactive application.
-* Test general people knowledge about landmarks and places around the world.
+* Test general people knowledge about landmarks around the world.
 * Allow the user to log in the best score and compare with previews attempts.
 
 
 ## User Stories
-* As a user, I want to easily navigate throughout the website and questions.
+* As a user, I want to easily navigate throughout the website.
+* As a user, I want know how to play the game-quiz.
 * As a user, I want to see in which question I am answering and how many more I have left.
 * As a user, I want to be able to add my name when finish to save my best score.
 * As a user, I want to be able to quickly check out the high score when coming back to the game later on.
@@ -66,7 +67,7 @@ If you would like to test your geography and landmarks knowledge, this is the ga
 
 
 ## Site owners Goals
-* Promote various places and their landmarks around the world.
+* Promote various places, their landmarks around the world.
 * Promote the game in general and test people knowledge about geography. 
 * Increase the number of players.
 * Increase rankings on search engines.
@@ -122,7 +123,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 ### Navbar
 
-* Navbar with Home and High Scores button to allow the user easy access to all pages.
+* Navbar with Home and High Scores menu to allow the user easy access to all pages.
 
 ![Navigation Bar](/docs/navbar-image.png)
 ### Introduction Page
@@ -131,7 +132,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 * Short game instruction to assure that user can play the game without doubts and easily.
 
-* Underneath introduction is play button to begin the game.
+* Play button to begin the game.
 
 ![Introduction Page](/docs/introduction-page.png)
 
