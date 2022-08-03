@@ -440,13 +440,13 @@ const questionBank = [{
             correct: false
         }
     ],
-    correctText: "Caernarfon Castle – often anglicised as Carnarvon Castle or Caernarvon Castle – is a medieval fortress in Caernarfon, Gwynedd, north-west Wales cared for by Cadw, the Welsh Government's historic environment service.",
+    correctText: "Caernarfon Castle often anglicised as Carnarvon Castle or Caernarvon Castle is a medieval fortress in Caernarfon, Gwynedd, north-west Wales cared for by Cadw, the Welsh Government's historic environment service.",
     image: 'assets/images/castle-wales.jpeg',
     mark: "Caernarfon Castle"
 },
 
 {
-    question: "The Charles Kuonen Suspension Bridge is the third longest hanging pedestrian bridge in the world. In what country is it located?",
+    question: "The Charles Kuonen Suspension Bridge is of the longest hanging pedestrian bridge in the world. In what country is it located?",
     answers: [{
             text: 'Austria',
             correct: false

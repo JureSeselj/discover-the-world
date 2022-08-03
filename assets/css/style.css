@@ -566,13 +566,19 @@ input::placeholder {
     }
     /* correct and wrong answers style */
 
-.correct {
-    background-color: rgb(94, 196, 22);
-    color: #fefefe;
-}
-
-.wrong {
-    background-color: rgb(217, 4, 22);
-    color: #fefefe;
-}
+    .correct {
+        background-color: rgb(94, 196, 22);
+        color: #fefefe;
+    }
+    .wrong {
+        background-color: rgb(217, 4, 22);
+        color: #fefefe;
+    }
+    .modal-content {
+        padding: 3%;
+        border: 4px solid #019992;
+        border-radius: 3.4rem;
+        width: 90%;
+        font-size: small;
+    }
 }
