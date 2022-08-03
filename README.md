@@ -104,13 +104,13 @@ I have used [Canva](https://www.canva.com/ "canva") to help in the selection of 
 
 I will explain the uses of the varius colours below, starting from the left to right side.
 
-![Colour Pallet]
+![Colour Pallet](/docs/colour-palette-image.png)
 
-* #FEDE00 - This colur will be used as background colour for all button, also as a hover effect on navbar.
-* #0C2144 - This colur will be used as text colour for the buttons,also as a border colour for buttons.
-* #019992 - This colur will be used as text colour for hover effect on the buttons. 
+* #FEDE00 - This colur will be used as background colour for play button and next button, also as a hover effect on navbar and choice answer.
+* #0C2144 - This colur will be used as text colour for questions, timer, progress text and as a background colour for buttons on high score and end page.
+* #019992 - This colur will be used as hover effect on play button, also as background colour on game page container and for pop-up explanation text. 
 * #fafafa - This colour will be used as a text colour.
-* #3b7312 - This colour will be used to correct answer to questions.
+* #5ec416 - This colour will be used to correct answer to questions.
 * #d90416 - This colour will be used to incorrect answer to questions.
 
 
@@ -139,7 +139,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 * The game container has a contdown timer to limit answering time to 20 seconds.
 
-* Each question has its own hint image to help user remember what landmark the question is linked.
+* Each question has it's own hint image to help user remember what landmark the question is linked.
 
 * When user got a wrong answer to question or time finished, a modal shows a brief explanation about correct question answer.
 
@@ -224,7 +224,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here]()
+The live link can be found [here](https://jureseselj.github.io/explore-the-world/)
 
 
 ## Local Deployment
