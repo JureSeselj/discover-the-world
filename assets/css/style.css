@@ -560,4 +560,8 @@ input::placeholder {
     #highscore-container {
         padding-top: 10rem;
     }
+    #finalScore {
+        font-size: 2.2rem;
+        
+    }
 }
