@@ -564,4 +564,15 @@ input::placeholder {
         font-size: 2.2rem;
         
     }
+    /* correct and wrong answers style */
+
+.correct {
+    background-color: rgb(94, 196, 22);
+    color: #fefefe;
+}
+
+.wrong {
+    background-color: rgb(217, 4, 22);
+    color: #fefefe;
+}
 }
