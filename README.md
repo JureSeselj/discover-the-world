@@ -161,7 +161,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 * There is also a go home button that leads the user to the index page after checking the high score list.
 
-* Underneath go home button there is also a play again button to instantly begin the game.
+* Underneath go home button there is also a play again button to instantly begin the game again.
 
 ![High Score](/docs/high-score-page.png)
 
@@ -221,7 +221,7 @@ When there is time, I would like to expand this game to include :
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the [GitHub repository](), navigate to the Settings tab 
-- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- From the source section drop-down menu, select the **Main** Branch, then click **Save**.
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://jureseselj.github.io/explore-the-world/)
