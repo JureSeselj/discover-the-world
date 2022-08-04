@@ -236,7 +236,7 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- ``
+- `gh repo clone JureSeselj/explore-the-world`
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
