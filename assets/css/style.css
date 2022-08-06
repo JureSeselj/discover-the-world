@@ -326,15 +326,17 @@ a:hover {
 }
 
 .close {
-    color: #aaaaaa;
-    float: right;
+    color: #019992;
     font-size: 28px;
+    float: right;
     font-weight: bold;
+    padding: 0 20rem;
+    margin-top: 5rem;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: #0C2144;
     text-decoration: none;
     cursor: pointer;
 }
