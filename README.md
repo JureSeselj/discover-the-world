@@ -191,6 +191,8 @@ When there is time, I would like to expand this game to include :
 * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
 * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
+* [JSON](https://en.wikipedia.org/wiki/JSON "JSON")
+
 
 ## Libraries & Framework
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
@@ -223,7 +225,7 @@ When there is time, I would like to expand this game to include :
 
 ![Lighthouse Report](/docs/lighthouse-testing-screenshot.png)
 
-* I confirmed that this project is responsiv, looks very good and functions on all standard screen sizes using the devtools device toolbar.
+* I confirmed that this project is responsive, looks very good and functions on all standard screen sizes using the devtools device toolbar.
 
 # Bugs
 
