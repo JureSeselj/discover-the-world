@@ -278,7 +278,7 @@ CSS validation results can be viewed [here](/docs/style.css-validator.png)
 
 + JavaScript
 
-I have tested both javascript files with the [JSHint](https://jshint.com/) and no error were been found. 
+I have tested all JavaScript files with the [JSHint](https://jshint.com/) and no error were been found. 
 
 Reports can be found on links:
 
@@ -331,10 +331,17 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 For code inspiration, help and advice,
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 * [Code Institute](https://codeinstitute.net/ie/ "Code Institute")
+* [Free Code Camp](https://www.freecodecamp.org/learn)
+* [W3Schools](https://www.w3schools.com/)
+* [Invention Tricks](https://www.youtube.com/c/InventionTricks)
 
 
 For content and style inspiration,
-* 
+* [Kvizopija](https://kvizopija.com/pub-kviz-pitanja/zemljopis-pub-kviz-pitanja/)
+* [World Geography Games](https://world-geography-games.com/)
+* [JetPunk](https://www.jetpunk.com/tags/geography)
+* [KK Quiz](https://www.kkquiz.com/category/landmarks/1)
+* [Trivia Quizzes Britannica](https://www.britannica.com/quiz/browse/Geography-Travel)
 
 
 
