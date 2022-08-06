@@ -222,6 +222,17 @@ When there is time, I would like to expand this game to include :
 
 # Validator Testing
 
++ HTML
+
+  Passing the HTML from all templates and base into the W3C Markup Validator no errors or warnings have been found [W3C validator](https://validator.w3.org/).
+  
+  Code Validation results:
+  
+[Index Page](/docs/index.html-validator.png) <br>
+[Game Page](/docs/game.html-validator.png) <br>
+[End Page](/docs/end.html-validator.png) <br>
+[High Score Page](/docs/highscore.html-validator.png)
+
 
 ### Unfixed Bugs
 
