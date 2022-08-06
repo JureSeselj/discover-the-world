@@ -239,6 +239,16 @@ No errors were found when passing through the official [W3C validator](https://j
 
 CSS validation results can be viewed [here](/docs/style.css-validator.png)
 
++ JavaScript
+
+I have tested both javascript files with the [jshint](https://jshint.com/) and no error were been found. 
+
+Reports can be found on links:
+
+[script.js](/docs/script.js-screenshot-testing.png) &nbsp; 
+[end.js](/docs/end.js-screenshot-testing.png) &nbsp; 
+[highscores.js](/docs/highscore.js-screenshot-testing.png)
+
 
 ### Unfixed Bugs
 
