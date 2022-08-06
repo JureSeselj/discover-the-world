@@ -2,7 +2,7 @@
 # Explore The World
 
 # Goal for this Project
-Welcome to Explore The World! A geography game which takes you on a journey around the world and challenges your knowledge to answer multiple choice questions.
+Welcome to Explore The World, a geography game which takes you on a journey around the world and challenges your knowledge to answer multiple choice questions.
 Try to answer all the questions while traveling the world to explore your next destination.
 If you would like to test your geography and landmarks knowledge, this is the game for you!
 
@@ -22,7 +22,6 @@ Click [here](https://jureseselj.github.io/explore-the-world/) to test your knowl
         * [Fonts](#fonts)
         * [Icons](#icons)
         * [Colours](#colours)
-        * [Structure](#structure)
     * [Features](#features)
         * [Existing Features](#existing-features)
             * [Navigation Bar](#navigation-bar)
@@ -116,8 +115,6 @@ I will explain the uses of the varius colours below, starting from the left to r
 * #5ec416 - This colour will be used to correct answer to questions.
 * #d90416 - This colour will be used to incorrect answer to questions.
 
-
-### Structure
 
 # Features
 
