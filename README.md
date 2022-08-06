@@ -167,6 +167,13 @@ I will explain the uses of the varius colours below, starting from the left to r
 ![High Score](/docs/high-score-page.png)
 
 
+### Footer
+
++ The footer appear only on high score and end pages contains the copyright text. 
+    
+![Footer](/docs/footer-image.png)
+
+
 ## Features to be Implemented
 
 When there is time, I would like to expand this game to include :
