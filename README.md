@@ -207,9 +207,9 @@ When there is time, I would like to expand this game to include :
 * [Favicon Converter](https://favicon.io/favicon-converter/ "Favicon Converter")
 * [Mockup Generator](https://techsini.com/multi-mockup/index.php "Multi Device Website Mockup Generator")
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
-* [Canva](https://www.canva.com/ "canva")
+* [Canva](https://www.canva.com/ "Canva")
 * [Pixabay](https://pixabay.com/ "Pixabay")
-* [Coolors](https://coolors.co/)
+* [Coolors](https://coolors.co/ "Coolors")
 
 
 [Back to Top](#table-of-contents)
