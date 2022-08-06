@@ -6,9 +6,9 @@ Welcome to Explore The World! A geography game which takes you on a journey arou
 Try to answer all the questions while traveling the world to explore your next destination.
 If you would like to test your geography and landmarks knowledge, this is the game for you!
 
-![Responsive Displays]
+![Responsive Displays]()
 
-Click [here](https://jureseselj.github.io/explore-the-world/) to Explore The World. 
+Click [here](https://jureseselj.github.io/explore-the-world/) to test your knowledge while exploring the world. 
 
 # Table of Contents
 * [UX](#ux "UX")
@@ -204,7 +204,9 @@ When there is time, I would like to expand this game to include :
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [JSHint](https://jshint.com/ "JSHint")
+* [Convert Simple](https://www.convertsimple.com/convert-javascript-to-json/ "Convert JavaScript to json")
 * [Favicon Converter](https://favicon.io/favicon-converter/ "Favicon Converter")
+* [Mockup Generator](https://techsini.com/multi-mockup/index.php "Multi Device Website Mockup Generator")
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Canva](https://www.canva.com/ "canva")
 * [Pixabay](https://pixabay.com/ "Pixabay")
@@ -229,6 +231,31 @@ When there is time, I would like to expand this game to include :
 
 ### Solved bugs
 
++ Timer 
+
+There was an issue with the countdown timer  - When the user clicks an answer (correct or not) timer did not stop and if the user didn't click the next button, the error container opened showing an explanation about the question that should open only if a wrong answer clicked. 
+I solve this bug by adding a clear interval on SelectedAnswer function. 
+
+```
+ 
+function selectedAnswer(a) {
+    const selectedButton = a.target;
+    const correct = selectedButton.dataset.correct;
+    clearInterval(timer);
+        if (correct) {
+        this.classList.add('correct');
+        scorePoints++;
+        // add class if incorrect
+    } else {
+        this.classList.add('wrong');
+        wrongAnswer();
+    }
+      Array.from(choiceButtons.children).forEach(button => {
+        button.disabled = true;
+    });
+}
+
+```
 
 # Validator Testing
 
@@ -261,6 +288,15 @@ Reports can be found on links:
 
 
 ### Unfixed Bugs
+
++ 16th Question Load 
+
+When the user clicks the nextButton on the last question (16th), it is correctly redirected to the end.html page, but a new question is also rendering. 
+This bug will be solved in the next version of the game. 
+
+ + ClearStorage Button 
+
+On the initial code is possible to find a clear storage button on the High Score page. Were tried several functions and it was still not working properly. Then, this button was removed from HTML and this bug will be solved and the clear button will be added in future releases.
 
 # Deployment
 
