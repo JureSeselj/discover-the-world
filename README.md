@@ -8,6 +8,8 @@ If you would like to test your geography and landmarks knowledge, this is the ga
 
 ![Responsive Displays]
 
+Click [here](https://jureseselj.github.io/explore-the-world/) to Explore The World. 
+
 # Table of Contents
 * [UX](#ux "UX")
     * [User Goals](#user-goals "User Goals")
@@ -107,7 +109,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 ![Colour Pallet](/docs/colour-palette-image.png)
 
-* #FEDE00 - This colur will be used as background colour for play button and next button, also as a hover effect on navbar and choice answer.
+* #FEDE00 - This colur will be used as background colour for some button, also as a hover effect on navbar and choice answer.
 * #0C2144 - This colur will be used as text colour for questions, timer, progress text and as a background colour for buttons on high score and end page.
 * #019992 - This colur will be used as hover effect on play button, also as background colour on game page container and for pop-up explanation text. 
 * #fafafa - This colour will be used as a text colour.
@@ -199,6 +201,10 @@ When there is time, I would like to expand this game to include :
 
 
 ## Tools
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [JSHint](https://jshint.com/ "JSHint")
+* [Favicon Converter](https://favicon.io/favicon-converter/ "Favicon Converter")
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Canva](https://www.canva.com/ "canva")
 * [Pixabay](https://pixabay.com/ "Pixabay")
@@ -209,11 +215,15 @@ When there is time, I would like to expand this game to include :
 
 # Testing
 
-*
-*
-*
-*
-*
+* I tested playing this game in different browsers: Chrome, Firefox, Safari.
+* I confirmed that the game results  are allways correct.
+* I confirmed that the header, introduction, options, instruction, results and footer text are all readable and easy to understand.
+* I confirmed that the all explanation for wrong answers are checked and correct. 
+* I confirmed that the colours and the fonts chosen are easy to read and accessible by running it through lighthouse in devtools
+
+![Lighthouse Report](/docs/lighthouse-testing-screenshot.png)
+
+* I confirmed that this project is responsiv, looks very good and functions on all standard screen sizes using the devtools device toolbar.
 
 # Bugs
 
@@ -241,7 +251,7 @@ CSS validation results can be viewed [here](/docs/style.css-validator.png)
 
 + JavaScript
 
-I have tested both javascript files with the [jshint](https://jshint.com/) and no error were been found. 
+I have tested both javascript files with the [JSHint](https://jshint.com/) and no error were been found. 
 
 Reports can be found on links:
 
