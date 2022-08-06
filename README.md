@@ -312,7 +312,7 @@ The live link can be found [here](https://jureseselj.github.io/explore-the-world
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone ### Local Deployment
+- `git clone ### Local Deployment`
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
@@ -335,7 +335,7 @@ For code inspiration, help and advice,
 * [W3Schools](https://www.w3schools.com/)
 * [Invention Tricks](https://www.youtube.com/c/InventionTricks)
 
-
+ 
 For content and style inspiration,
 * [Kvizopija](https://kvizopija.com/pub-kviz-pitanja/zemljopis-pub-kviz-pitanja/)
 * [World Geography Games](https://world-geography-games.com/)
