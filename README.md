@@ -210,6 +210,7 @@ When there is time, I would like to expand this game to include :
 * [Gitpod](https://www.gitpod.io/ "Gitpod")
 * [Canva](https://www.canva.com/ "canva")
 * [Pixabay](https://pixabay.com/ "Pixabay")
+* [Coolors](https://coolors.co/)
 
 
 [Back to Top](#table-of-contents)
