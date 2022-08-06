@@ -20,6 +20,11 @@ window.onload = function beginGame() {
     .then(rawQuestions => startQuiz(rawQuestions))
 };
 
+//add backgrond to body
+function background() {
+    document.body.style.backgroundImage = "url('assets/images/highscore-image.jpg')";
+}
+
 // Next Button Add Next Question
 nextButton.addEventListener('click', () => {
     if(currentQuestion < 15) currentQuestion++;
@@ -49,9 +54,8 @@ function nextQuestion() {
         myTimer();
     }
 
-    // Update The Progress Text
     progressText.innerText = `Question ${currentQuestion+1}/${MAX_QUESTIONS}`;
-    // Update The Progress Bar
+    
     progressBarFull.style.width = `${((currentQuestion +1) / MAX_QUESTIONS) * 100}%`;
 }
 

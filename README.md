@@ -152,7 +152,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 * After answering 15 quiz questions, user can add name to rank score on High Score page.
 
-* There is also two buttons for home page or play again the game.
+* There is also two buttons for home page or play the game again.
 
 ![End Game](/docs/end-page-image.png)
 
