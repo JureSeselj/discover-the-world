@@ -364,7 +364,6 @@ input {
     padding: 1.5rem;
     font-size: 1.8rem;
     border: 1px solid #0C2144;
-    box-shadow: #0C2144;
 }
 
 input::placeholder {

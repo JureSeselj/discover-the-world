@@ -224,14 +224,20 @@ When there is time, I would like to expand this game to include :
 
 + HTML
 
-  Passing the HTML from all templates and base into the W3C Markup Validator no errors or warnings have been found [W3C validator](https://validator.w3.org/).
+Passing the HTML from all templates and base into the W3C Markup Validator no errors or warnings have been found [W3C validator](https://validator.w3.org/).
   
-  Code Validation results:
+Code Validation results:
   
 [Index Page](/docs/index.html-validator.png) <br>
 [Game Page](/docs/game.html-validator.png) <br>
 [End Page](/docs/end.html-validator.png) <br>
 [High Score Page](/docs/highscore.html-validator.png)
+
++ CSS
+
+No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator). 
+
+CSS validation results can be viewed [here](/docs/style.css-validator.png)
 
 
 ### Unfixed Bugs
