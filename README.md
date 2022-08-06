@@ -6,7 +6,7 @@ Welcome to Explore The World, a geography game which takes you on a journey arou
 Try to answer all the questions while traveling the world to explore your next destination.
 If you would like to test your geography and landmarks knowledge, this is the game for you!
 
-![Responsive Displays]()
+![Responsive Displays](/docs/%20mockup-screenshot-image.png)
 
 Click [here](https://jureseselj.github.io/explore-the-world/) to test your knowledge while exploring the world. 
 
