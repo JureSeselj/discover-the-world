@@ -20,7 +20,7 @@ window.onload = function beginGame() {
     .then(rawQuestions => startQuiz(rawQuestions))
 };
 
-//add backgrond to body
+//Add Backgrond To Body
 function background() {
     document.body.style.backgroundImage = "url('assets/images/highscore-image.jpg')";
 }
@@ -53,7 +53,6 @@ function nextQuestion() {
         window.scrollTo(0,50);
         myTimer();
     }
-
     progressText.innerText = `Question ${currentQuestion+1}/${MAX_QUESTIONS}`;
     
     progressBarFull.style.width = `${((currentQuestion +1) / MAX_QUESTIONS) * 100}%`;
@@ -111,8 +110,8 @@ function selectedAnswer(a) {
 
 // Show Correct Answer After Wrong Click
 function wrongAnswer() {
-    var modal = document.getElementById('myModal');
-    var span = document.getElementsByClassName('close')[0];
+    const modal = document.getElementById('myModal');
+    const span = document.getElementsByClassName('close')[0];
 
     modal.style.display = "block";
     span.onclick = function () {
