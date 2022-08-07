@@ -203,6 +203,7 @@ When there is time, I would like to expand this game to include :
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [JSHint](https://jshint.com/ "JSHint")
+* [GitHub](https://github.com/ "GitHub")
 * [Convert Simple](https://www.convertsimple.com/convert-javascript-to-json/ "Convert JavaScript to json")
 * [Favicon Converter](https://favicon.io/favicon-converter/ "Favicon Converter")
 * [Mockup Generator](https://techsini.com/multi-mockup/index.php "Multi Device Website Mockup Generator")
@@ -231,6 +232,10 @@ When there is time, I would like to expand this game to include :
 
 ### Solved bugs
 
++ Modal Close Button
+
+Modal containers close button not showing on large screen. This was solved by adjusting the feedback forms font sizing.
+
 + Timer 
 
 There was an issue with the countdown timer  - When the user clicks an answer (correct or not) timer did not stop and if the user didn't click the next button, the error container opened showing an explanation about the question that should open only if a wrong answer clicked. 
@@ -256,6 +261,7 @@ function selectedAnswer(a) {
 }
 
 ```
+* During development, I had the hardest time to capture the correct and wrong answers selected by the user. The solution was found from WebDev simplifieds tutorial and in particular, the use of array.from to iterate through an array.
 
 # Validator Testing
 
