@@ -163,7 +163,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 * Underneath go home button there is also a play again button to instantly begin the game again.
 
-![High Score](/docs/high-score-page.png)
+![High Score](/docs/highscore-page-image.png)
 
 
 ### Footer
