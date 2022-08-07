@@ -168,7 +168,7 @@ I will explain the uses of the varius colours below, starting from the left to r
 
 ### Footer
 
-+ The footer appear only on high score and end pages contains the copyright text. 
++ The footer appear only on high score and end pages containing the copyright text. 
     
 ![Footer](/docs/footer-image.png)
 
